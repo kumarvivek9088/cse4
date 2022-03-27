@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Time Table|CSE-4</title>
+<link rel="shortcut icon" href="img2.jpg" type="image/x-icon">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+<style>
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+.collapsible {
+  margin-top: 10px;
+  background-color: blue;
+  margin-left: 25%;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.active, .collapsible:hover {
+  background-color: solid black;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 50%;
+  margin-left: 25%;
+}
+.nav-link:hover{
+    color: white;
+    animation: pulsate 0.50s ease-in-out infinite alternate;     
+}
+  @keyframes pulsate {
+        
+    100% {
+  
+        text-shadow:
+        0 0 2px white,
+        0 0 5px white,
+        0 0 10px white,
+        0 0 40px #5271ff,
+        0 0 80px #5271ff,
+        0 0 90px #5271ff,
+        0 0 100px #5271ff,
+        0 0 150px #5271ff;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 2px white,
+      0 0 5px white,
+      0 0 10px white,
+      0 0 38px #5271ff,
+      0 0 73px #5271ff,
+      0 0 80px #5271ff,
+      0 0 94px #5271ff,
+      0 0 140px #5271ff;
+  
+  }
+}  
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: 'Mochiy Pop P One', sans-serif;" >
+    <a class="navbar-brand" href="#">Cse-4</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+      <ul class="navbar-nav mr-auto ml-auto "  >
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="timetable.html">Time Table</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="impinfo.html">Imp Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="assignment.html">Assignments</a>
+        </li>
+      
+      </ul>
+    </div>
+  </nav>
+
+<h2 style="text-align: center;">Time Table</h2>
+
+<button type="button" class="collapsible">Monday</button>
+<div class="content">
+  <p style="background-color: aqua; width:100%; text-align: center;">9:15-10:10</p>
+  <p>
+      CSE208 Discrete Mathematical Structures<br>
+      Dr Ushaben Keshwala[16878],Mr Roshan Lal[2445],Ms Shweta Bhardwaj[2093]<br> (E3-211)
+    </p>
+   <p style="background-color: aqua; width:100%; text-align: center;">10:15-11:10</p>
+   <p>
+    CSE202 Operating System<br>
+    Dr Sumita Gupta[304374]<br> (E3-211)
+   </p>
+   <p style="background-color: aqua; width:100%; text-align: center;">11:15-12:10</p>
+   <p>
+    IT201 Java Programming<br>
+    Dr Anshul Tickoo[3854],Dr Subhash Chand Gupta[2449],Dr Sumita Gupta[304374],Ms NIdhi Chandra[5155] <br>(E3-211)
+   </p>
+   <p style="background-color: aqua; width:100%; text-align: center;">2:15-3:10</p>
+   <p>
+       MATH242 Applied Mathematics-IV<br>
+       Dr Shweta Upadhyay[9322],Dr Sumit Kaur Bhatia[10703] <br>(E3-211)
+    </p>
+    
+</div>
+<button type="button" class="collapsible">Tuesday</button>
+<div class="content">
+    <p style="background-color: aqua; width:100%; text-align: center;">9:15-10:10</p>
+    <p>
+        MATS201 Material Science<br>
+        Dr Pallav Gupta[14606]<br> (E3-211)
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">10:15-11:10</p>
+    <p>
+        CSE208 Discrete Mathematical Structures<br>
+        Dr Ushaben Keshwala[16878],Mr Roshan Lal[2445],Ms Shweta Bhardwaj[2093]<br>
+        E3-208A
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">11:15-1:10</p>
+    <p style="text-align: center;">
+      x batch
+    </p>
+    <p>
+        CSE202 Operating System<br>
+        Dr Sumita Gupta[304374]<br>(E2-5LA4)
+    </p>
+    <p style="text-align: center;">
+      y batch
+    </p>
+    <p>
+        IT201 Java Programming<br>
+        Dr Anshul Tickoo[3854],Dr Subhash Chand Gupta[2449],Dr Sumita Gupta[304374],Ms NIdhi Chandra[5155]<br> E2-501
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">1:15-2:10</p>
+    <p>
+        BS207 Self-Reliance and Socialization<br>
+        Dr Alpana Agarwal[304750]<br> (E3-211)
+    </p>
+    
+</div>
+<button type="button" class="collapsible">Wednesday</button>
+<div class="content">
+    <p style="background-color: aqua; width:100%; text-align: center;">9:15-10:10</p>
+    <p>
+        MATH242 Applied Mathematics-IV<br>
+        Dr Shweta Upadhyay[9322],Dr Sumit Kaur Bhatia[10703] <br>E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">10:15-11:10</p>
+    <p>
+        IT201 Java Programming<br>
+        Dr Anshul Tickoo[3854],Dr Subhash Chand Gupta[2449],Dr Sumita Gupta[304374],Ms NIdhi Chandra[5155]<br> E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">12:15-1:10</p>
+    <p>
+        CSE204 Theory of Computation<br>
+        Dr Prabhishek Singh[303186],Mr Roshan Lal[2445]<br> E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">1:15-3:10</p>
+    <p style="text-align: center;">
+      y batch
+    </p>
+    <p>
+        CSE202 Operating System<br>
+        Dr Sumita Gupta[304374]<br>(E2-5LA4)
+    </p>
+    <p style="text-align: center;">
+      x batch
+    </p>
+    <p>
+        IT201 Java Programming<br>
+        Dr Anshul Tickoo[3854],Dr Subhash Chand Gupta[2449],Dr Sumita Gupta[304374],Ms NIdhi Chandra[5155]<br> E2-501
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">3:15-4:10</p>
+    <p>
+        fbl classes
+    </p>
+    
+    
+</div>
+<button type="button" class="collapsible">Thursday</button>
+<div class="content">
+    <p style="background-color: aqua; width:100%; text-align: center;">9:15-10:10</p>
+    <p>
+        CSE204 Theory of Computation<br>
+        Dr Prabhishek Singh[303186],Mr Roshan Lal[2445]<br> E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">10:15-11:10</p>
+    <p>
+        MATS201 Material Science<br>
+        Dr Pallav Gupta[14606]<br> E3-208A
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">11:15-12:10</p>
+    <p>
+        CSE208 Discrete Mathematical Structures<br>
+        Dr Ushaben Keshwala[16878],Mr Roshan Lal[2445],Ms Shweta Bhardwaj[2093]<br> E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">1:15-2:10</p>
+    <p>
+        BS207 Self-Reliance and Socialization<br>
+        Dr Alpana Agarwal[304750] <br> E3-211
+    </p>
+</div>
+<button type="button" class="collapsible">Friday</button>
+<div class="content">
+    <p style="background-color: aqua; width:100%; text-align: center;">9:15-10:10</p>
+    <p>
+        MATH242 Applied Mathematics-IV<br>
+        Dr Shweta Upadhyay[9322],Dr Sumit Kaur Bhatia[10703] <br> E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">10:15-11:10</p>
+    <p>
+        CSE204 Theory of Computation<br>
+        Dr Prabhishek Singh[303186],Mr Roshan Lal[2445]<br> E3-208A
+    </p><
+    <p style="background-color: aqua; width:100%; text-align: center;">11:15-12:10</p>
+    <p>
+        IT201 Java Programming<br>
+        Dr Anshul Tickoo[3854],Dr Subhash Chand Gupta[2449],Dr Sumita Gupta[304374],Ms NIdhi Chandra[5155]<br> E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">1:15-2:10</p>
+    <p>
+        CSE202 Operating System<br>
+        Dr Sumita Gupta[304374]<br> E3-211
+    </p>
+    <p style="background-color: aqua; width:100%; text-align: center;">2:15-3:10</p>
+    <p>
+        BS207 Self-Reliance and Socialization<br>
+        Dr Alpana Agarwal[304750]<br> E3-211
+    </p>
+</div>
+<button type="button" class="collapsible">Saturday</button>
+<div class="content" style="background-color: rgb(40, 250, 3);">
+  <p>
+      ghar par rho{^_^}
+    </p>
+</div>
+<button type="button" class="collapsible">Sunday</button>
+<div class="content" style="background-color: cyan;">
+    <p>
+        
+        ghar par rho{^_^}
+  </p>
+</div>
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.instagram.com/progresswithpython" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-instagram">instagram</i>
+      </a>
+      <a href="https://github.com/kumarvivek9088"  target="_blank" class="me-4 text-reset">
+        <i class="fab fa-github">github</i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>CSE-4
+          </h6>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="timetable.html" class="text-reset">Time Table</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            kumarvivek9088@gmail.com
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://www.instagram.com/progresswithpython" target="_blank">ProgresswithPython</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
